@@ -1,0 +1,128 @@
+/* Common Css Start */
+:root{
+    --first-font:'Ubuntu', sans-serif;
+    --header-font:'Abril Fatface', cursive;
+    --second-font:'Open Sans', sans-serif;
+    --common-color:#0f2f44;
+    --primary-color:#8484bf;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common Css Start */
+/* Top bar section start */
+#top{
+    padding:19px 0;
+    background-color:var(--common-color);
+    color: #fefefe;
+    font-family: var(--first-font);
+    font-size: 16px;
+}
+/* Top bar section  End */
+/* Nav Section Start */
+
+#primary-nav #menu ul li a{
+    font-size: 16px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    text-transform:capitalize;
+    color: #0f2f44;
+    padding:40px 18px;
+    display: inline-block;
+}
+#primary-nav #menu ul li a:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color: #ffffff;
+}
+#primary-nav #menu ul li button{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #ededed;
+}
+#primary-nav #menu ul li button:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color: #ffffff;
+}
+/* Nav Section End */
+/* Hero section Start */
+#banner{
+    background-image:url(../img/bannar.png);
+    background-size: cover;
+    background-position: center;
+    padding:200px 50px;
+}
+
+#banner .banner-info h2{
+   
+    font-size: 50px;
+    font-family:var(--first-font);
+    font-weight:400;
+    color: var(--common-color);
+}
+#banner .banner-info h1{
+    font-size: 50px;
+    font-family:var(--header-font);
+    font-weight:400;
+    color: var(--common-color);
+    text-transform: capitalize;
+}
+#banner .banner-info h3{
+    font-size: 32px;
+    font-family:var(--header-font);
+    font-weight:300;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    color:var(--primary-color);
+}
+#banner .banner-info p{
+    padding: 15px 0;
+    font-size: 14px;
+    font-family:var(--second-font);
+    font-weight:400;
+    color:var(--primary-color);
+}
+#banner a{
+    font-size: 14px;
+    font-family:var(--first-font);
+    font-weight:500;
+    color: #ffffff;
+    background-color:var(--primary-color);
+    padding: 10px 30px;
+    display: inline-block;
+    transition: all linear .5s;
+}
+#banner a:hover{
+    color: #ffd153;
+}
+#banner button{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-family: var(--first-font);
+    font-weight: 500;
+    background: #fefefe;
+    border: 1px solid #ededed;
+}
+#banner button:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color: #ffffff;
+}
+
+/* Hero section End*/
